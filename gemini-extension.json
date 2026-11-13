@@ -1,0 +1,19 @@
+{
+  "name": "quotebuild-calculators",
+  "version": "0.1.0",
+  "description": "UK building calculations and estimate-scope checks using QuoteBuild\u2019s public tools.",
+  "mcpServers": {
+    "quotebuild-calculators": {
+      "includeTools": [
+        "discover_calculators",
+        "prepare_calculation",
+        "run_calculation",
+        "compare_calculations",
+        "review_estimate_scope"
+      ],
+      "url": "https://mcp.quotebuild.co.uk/mcp",
+      "type": "http"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
